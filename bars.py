@@ -28,7 +28,6 @@ def get_bar_coordinate(data):
 
 if __name__=='__main__':
 	adress=input("Write the adress to \"bars.json\" file: ")
-	#adress=("/home/nikita/documents/py_course/bars.json")
 	opened_json=load_json(adress)
 	print ("\n")
 	print ("The largest bas is: %s" % return_largest(opened_json))
